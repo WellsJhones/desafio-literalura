@@ -44,3 +44,8 @@ change or add the correct information
 DB_HOST              here you put your host database
 DB_ALURA_DESAFIO     here your database name
 DB_PASSWORD          here database passaword 
+
+## requerements 
+
+Java 22
+postgresql
