@@ -49,3 +49,10 @@ change or add the correct information
 
 - Java 22
 - postgresql
+
+## working screenshots
+
+<img src="src\main\java\com\wells\desafio_literalura\img\Screenshot 2024-06-22 043730.png" width="500">
+<img src="src\main\java\com\wells\desafio_literalura\img\Screenshot 2024-06-22 043801.png" width="500">
+<img src="src\main\java\com\wells\desafio_literalura\img\Screenshot 2024-06-22 043830.png" width="500">
+<img src="src\main\java\com\wells\desafio_literalura\img\Screenshot 2024-06-22 051206.png" width="500">
