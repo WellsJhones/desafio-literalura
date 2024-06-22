@@ -105,9 +105,15 @@ public class Principal {
         String dados = getDadosLivros();
         JSONObject responseObj = new JSONObject(dados);
         JSONArray bookArray;
+        // check if the response has the items key
+        if (!responseObj.has("items")) {
+            System.out.println("Livro não encontrado");
+            return;
+        }
+
         try {
             bookArray = responseObj.getJSONArray("items");
-            if (!bookArray.getJSONObject(0).has("volumeInfo")) {
+            if (bookArray.length() == 0) {
                 System.out.println("Livro não encontrado");
                 return;
             }
@@ -118,6 +124,7 @@ public class Principal {
         JSONObject book = bookArray.getJSONObject(0).getJSONObject("volumeInfo");
         String title = book.getString("title");
         System.out.println(title);
+
         String subtitle;
         if (book.has("subtitle")) {
             subtitle = book.getString("subtitle");
