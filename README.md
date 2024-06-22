@@ -41,11 +41,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## configuration on DB
 change or add the correct information 
-DB_HOST              here you put your host database
-DB_ALURA_DESAFIO     here your database name
-DB_PASSWORD          here database passaword 
+- DB_HOST              here you put your host database
+- DB_ALURA_DESAFIO     here your database name
+- DB_PASSWORD          here database passaword 
 
 ## requerements 
 
-Java 22
-postgresql
+- Java 22
+- postgresql
