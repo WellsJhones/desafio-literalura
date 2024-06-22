@@ -10,6 +10,6 @@ import java.util.List;
 public record DadosLivro(@JsonAlias("title") String titulo,
         @JsonAlias("subtitle") String subtitulo,
         @JsonAlias("authors") List<String> listaAutores,
-        @JsonAlias("categories") List<String> listaIdioma,
+        @JsonAlias("categories") List<String> listaCategorias,
         @JsonAlias("releaseDate") String dataLancamento) {
 }

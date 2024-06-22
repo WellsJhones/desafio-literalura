@@ -31,8 +31,8 @@ public class Livro {
             this.authors = "no author";
         }
         ;
-        if (!livroDados.listaIdioma().isEmpty()) {
-            this.categories = livroDados.listaIdioma().getFirst().toLowerCase();
+        if (!livroDados.listaCategorias().isEmpty()) {
+            this.categories = livroDados.listaCategorias().getFirst().toLowerCase();
         } else {
             this.categories = "Sem categoria";
         }
